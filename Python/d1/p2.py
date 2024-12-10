@@ -68,7 +68,7 @@ def similarity_score(dict_a, list_b):
 
 def main():
     # dict_a, list_b = generate_sorted_lists("d1/small.txt")
-    dict_a, list_b = generate_sorted_lists("d1/input.txt")
+    dict_a, list_b = generate_sorted_lists("Python/d1/input.txt")
     score = similarity_score(dict_a, list_b)
     print(f"Similarity score: {score}")
 

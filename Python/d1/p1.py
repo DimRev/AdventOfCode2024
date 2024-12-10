@@ -59,7 +59,7 @@ def count_distance(list_a, list_b):
 
 def main():
     # list_a, list_b = generate_sorted_lists("d1/small.txt")
-    list_a, list_b = generate_sorted_lists("d1/input.txt")
+    list_a, list_b = generate_sorted_lists("Python/d1/input.txt")
     dist = count_distance(list_a, list_b)
     print(f"Distance: {dist}")
 
