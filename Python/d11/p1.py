@@ -23,7 +23,9 @@ def solve(path, n):
     for line in parse_file(path):
         line_list = list(map(lambda x: int(x), line.split()))
         for i in range(n):
+            # print(f"{i} = {str.join(' ', list(map(lambda x: str(x),line_list)))}")
             line_list = apply_rules(line_list)
+        # print(f"{i + 1} = {str.join(' ', list(map(lambda x: str(x),line_list)))}")
         print(len(line_list))
 
 
